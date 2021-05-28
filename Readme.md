@@ -7,8 +7,12 @@
   - eureka-server7001为注册中心
   - payment8001 order80注册为客户端
 - 创建项目 eureka-server7002
-  - eureka集群 负载均衡和故障容错 （互相注册，相互守望）
+  - eureka集群 负载均衡（@LoadBalanced）和故障容错 （互相注册，相互守望）
   - 支付微服务集群配置
+  - 自我保护 不会轻易删除服务
+- 创建项目 payment8003
+  - Zookeeper 代替 Eureka
+  - Zookeeper在服务器上
 
 ## restful 调试
 > http://localhost:8001/payment/get/1

@@ -70,7 +70,7 @@ public class PaymentController
         return serverPort;
     }
 
-    @GetMapping(value = "/payment/discovery")
+    @GetMapping(value = "/payment/discovery") //获取相同服务的列表 服务发现discovery
     public Object discovery(){
         List<String> services = discoveryClient.getServices();
         for(String element : services){

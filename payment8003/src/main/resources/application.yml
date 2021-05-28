@@ -1,0 +1,8 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: payment-service
+  cloud:
+    zookeeper:
+      connect-string: 202.120.92.171:2181
