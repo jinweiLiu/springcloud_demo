@@ -17,8 +17,10 @@
   - Zookeeper在服务器上 节点是临时性的，不像eureka
 - 创建项目 zookeeper_order80
   - 创建服务消费者
-
-
+- 创建项目 payment8005
+  - 服务提供者，步骤和zookeeper一样
+- 创建项目 consul_order80
+  - 创建服务消费者，步骤和zookeeper一样
 ## restful 调试
 > http://localhost:8001/payment/get/1
 >
