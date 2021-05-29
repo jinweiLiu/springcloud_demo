@@ -1,8 +1,8 @@
 server:
-  port: 8003
+  port: 80
 spring:
   application:
-    name: payment-service
+    name: order-service
   cloud:
     zookeeper:
       connect-string: 124.71.224.55:2181

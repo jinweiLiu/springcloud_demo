@@ -1,4 +1,6 @@
 ## Spring Cloud学习
+
+### 服务注册和发现（eureka，zookeeper，consul)
 - 创建项目 payment8001
 - 创建项目 order80
   - RestTemplate 使用
@@ -12,7 +14,10 @@
   - 自我保护 不会轻易删除服务
 - 创建项目 payment8003
   - Zookeeper 代替 Eureka
-  - Zookeeper在服务器上
+  - Zookeeper在服务器上 节点是临时性的，不像eureka
+- 创建项目 zookeeper_order80
+  - 创建服务消费者
+
 
 ## restful 调试
 > http://localhost:8001/payment/get/1

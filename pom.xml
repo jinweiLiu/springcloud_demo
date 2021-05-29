@@ -15,6 +15,7 @@
     <module>eureka_server7002</module>
     <module>payment8002</module>
       <module>payment8003</module>
+      <module>zookeeper_order80</module>
   </modules>
 
   <packaging>pom</packaging>
