@@ -21,9 +21,16 @@
   - 服务提供者，步骤和zookeeper一样
 - 创建项目 consul_order80
   - 创建服务消费者，步骤和zookeeper一样
+- 使用Ribbon
+  - spring-cloud-starter-netflix-eureka-client带有ribbon的依赖包
+  - 负载均衡的规则（7种）
+  - 轮询的原理： reset接口第几次请求数 % 服务器集群的总数量 = 实际调用服务器位置下标，每次服务重启后rest接口计数从1开始。
+
 ## restful 调试
 > http://localhost:8001/payment/get/1
 >
 > http://eureka7001.com:7001/
 >
 > http://localhost/consumer/payment/get/1
+>
+> http://localhost:8003/payment/zk

@@ -3,6 +3,7 @@ package org.ecnu.ljw.controller;
 import org.ecnu.ljw.entity.CommonResult;
 import org.ecnu.ljw.entity.Payment;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,8 +22,20 @@ public class OrderController{
         return restTemplate.postForObject(PaymentSrv_URL + "/payment/create",payment,CommonResult.class);
     }
 
-    @GetMapping("/consumer/payment/get/{id}")
+    //返回对象为响应体中数据转化成的对象，基本上可以理解为JSON
+    @GetMapping("/consumer/payment/getObject/{id}")
     public CommonResult getPayment(@PathVariable Long id){
         return restTemplate.getForObject(PaymentSrv_URL + "/payment/get/"+id, CommonResult.class, id);
+    }
+
+    //返回对象为ResponseEntity对象，包含了响应中的一些重要信息，比如响应头、响应状态码、响应体等
+    @GetMapping("/consumer/payment/getEntity/{id}")
+    public CommonResult getEntity(@PathVariable Long id){
+        ResponseEntity<CommonResult> result = restTemplate.getForEntity(PaymentSrv_URL + "/payment/get/"+id,CommonResult.class);
+        if(result.getStatusCode().is2xxSuccessful()){
+            return result.getBody();
+        }else{
+            return new CommonResult(444,"操作失败");
+        }
     }
 }

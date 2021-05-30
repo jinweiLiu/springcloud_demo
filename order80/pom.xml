@@ -15,7 +15,7 @@
         <!--eureka-client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId> <!--已经引入ribbon-->
         </dependency>
         <dependency>
             <groupId>org.ecnu.ljw</groupId>
