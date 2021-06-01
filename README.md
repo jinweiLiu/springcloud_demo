@@ -37,6 +37,8 @@
     - 提供日志打印
 ### 服务降级
 - 使用Hystrix
+  - 服务调用失败的处理方法
+  - 服务降级、服务熔断、接近实时的监控
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
