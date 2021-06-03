@@ -7,19 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="order80" />
-        <module name="consul_order80" />
-        <module name="payment8001" />
-        <module name="common" />
-        <module name="eureka_server7001" />
-        <module name="zookeeper_order80" />
-        <module name="payment8003" />
-        <module name="hystrix_order80" />
-        <module name="payment8005" />
-        <module name="payment8002" />
-        <module name="eureka_server7002" />
         <module name="openfeign_order80" />
+        <module name="consul_order80" />
+        <module name="hystrix_dashboard9001" />
+        <module name="order80" />
+        <module name="payment8003" />
+        <module name="zookeeper_order80" />
+        <module name="payment8005" />
         <module name="hystrix_payment8001" />
+        <module name="payment8002" />
+        <module name="payment8001" />
+        <module name="eureka_server7002" />
+        <module name="eureka_server7001" />
+        <module name="hystrix_order80" />
+        <module name="common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

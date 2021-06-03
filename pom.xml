@@ -21,6 +21,7 @@
       <module>openfeign_order80</module>
       <module>hystrix_payment8001</module>
       <module>hystrix_order80</module>
+      <module>hystrix_dashboard9001</module>
   </modules>
 
   <packaging>pom</packaging>

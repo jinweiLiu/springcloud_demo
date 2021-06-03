@@ -43,6 +43,12 @@
     - 全局服务降级（@DefaultProperties(defaultFallback = "")）  通用和定制
   -服务熔断
     - 正常 -> 多次错误 -> 关闭 -> 正确率上升 -> 恢复
+  - 服务监控hystrixDashboard
+    - 监控服务的运行情况
+
+### 服务网关
+- zuul路由网关
+- Gateway新一代网关
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
