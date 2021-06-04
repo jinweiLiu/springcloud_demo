@@ -47,8 +47,19 @@
     - 监控服务的运行情况
 
 ### 服务网关
-- zuul路由网关
-- Gateway新一代网关
+  - zuul路由网关
+  - Gateway新一代网关
+    - 路由（构成网关的基本模块，它由ID，目标URI，一系列的断言和过滤器组成），断言，过滤
+    - 工作流程：客户端想gateway发出请求，然后在gateway handler mapping中找到与请求相匹配的路由，将其发送到gateway web handler.
+               handler再通过指定的过滤器来将请求发送到我们实际的服务执行业务逻辑，然后返回。
+               过滤器之间用虚线分开是因为过滤器可能会再发送请求之前（pre）或之后（post）执行业务逻辑
+  - 创建项目gateway9527
+    - 需要移除spring-boot-starter-web依赖
+    - 主要是配置application.yml
+    - 路由配置的两种方式（yml文件或者代码配置）
+    - 动态路由配置
+    - postman(图形化请求) curl(命令请求方式 curl http://localhost:9527/payment/lb --cookie [cookie] -H [请求头])
+    - 断言类型，包含时间 cookie 请求头 请求方法等
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
