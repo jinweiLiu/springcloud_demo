@@ -60,6 +60,7 @@
     - 动态路由配置
     - postman(图形化请求) curl(命令请求方式 curl http://localhost:9527/payment/lb --cookie [cookie] -H [请求头])
     - 断言类型，包含时间 cookie 请求头 请求方法等
+    - 
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
