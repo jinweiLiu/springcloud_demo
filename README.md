@@ -62,11 +62,18 @@
     - 断言类型，包含时间 cookie 请求头 请求方法等
     - 
 
+### 服务配置
+  - 每个微服务都需要一个配置文件，所以建立一个config server来管理配置
+  - SpringCloud Config分为服务端和客户端两部分，与GitHub整合
+  - bootstrap.yml
+
 ## restful 调试
 > http://localhost:8001/payment/get/1
->
+> eureka测试
 > http://eureka7001.com:7001/
->
+> 消费端测试
 > http://localhost/consumer/payment/get/1
->
+> zookeeper测试
 > http://localhost:8003/payment/zk
+> 网关过滤器测试
+> http://localhost:9527/payment/lb?username=22
