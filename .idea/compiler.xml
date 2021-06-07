@@ -21,6 +21,7 @@
         <module name="eureka_server7001" />
         <module name="gateway9527" />
         <module name="hystrix_order80" />
+        <module name="config_center3344" />
         <module name="hystrix_dashboard9001" />
       </profile>
     </annotationProcessing>
