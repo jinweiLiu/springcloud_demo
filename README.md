@@ -81,3 +81,5 @@
 > http://localhost:8003/payment/zk
 > 网关过滤器测试
 > http://localhost:9527/payment/lb?username=22
+> 服务配置
+> http://localhost:3344/master/config-dev.yml
