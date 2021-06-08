@@ -67,6 +67,9 @@
   - SpringCloud Config分为服务端和客户端两部分，与GitHub整合
   - bootstrap.yml
   - 创建项目config-center3344 Config配置总控中心搭建
+  - 创建项目config-client3355 Config配置客户端搭建
+  - Config动态刷新
+    - 需要手动执行 curl -X POST "http://localhost:3355/actuator/refresh"
 
 ## restful 调试
 > http://localhost:8001/payment/get/1

@@ -8,13 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="openfeign_order80" />
+        <module name="config_client3355" />
         <module name="consul_order80" />
         <module name="order80" />
-        <module name="payment8003" />
+        <module name="hystrix_payment8001" />
         <module name="common" />
         <module name="zookeeper_order80" />
         <module name="payment8005" />
-        <module name="hystrix_payment8001" />
+        <module name="payment8003" />
         <module name="payment8002" />
         <module name="payment8001" />
         <module name="eureka_server7002" />

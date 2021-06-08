@@ -24,6 +24,7 @@
       <module>hystrix_dashboard9001</module>
       <module>gateway9527</module>
       <module>config_center3344</module>
+      <module>config_client3355</module>
   </modules>
 
   <packaging>pom</packaging>
