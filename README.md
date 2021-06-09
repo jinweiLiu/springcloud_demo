@@ -1,4 +1,5 @@
 ## Spring Cloud学习
+![image-20210609114259282](image-20210609114259282.png)
 
 ### 服务注册和发现（eureka，zookeeper，consul)
 - 创建项目 payment8001
@@ -21,6 +22,7 @@
   - 服务提供者，步骤和zookeeper一样
 - 创建项目 consul_order80
   - 创建服务消费者，步骤和zookeeper一样
+  
 ### 服务调用
 - 使用Ribbon
   - spring-cloud-starter-netflix-eureka-client带有ribbon的依赖包
@@ -35,13 +37,14 @@
     - 可以设置超时控制时间 yml配置
   - 日志增强
     - 提供日志打印
+    
 ### 服务降级
 - 使用Hystrix
   - 服务降级（服务调用失败的处理方法）、服务熔断（达到最大服务访问后，直接拒绝访问，然后调用服务降级方法）、接近实时的监控
   - 服务降级
     - 服务降级 客户端和服务端都可以做
     - 全局服务降级（@DefaultProperties(defaultFallback = "")）  通用和定制
-  -服务熔断
+    -服务熔断
     - 正常 -> 多次错误 -> 关闭 -> 正确率上升 -> 恢复
   - 服务监控hystrixDashboard
     - 监控服务的运行情况
@@ -70,6 +73,10 @@
   - 创建项目config-client3355 Config配置客户端搭建
   - Config动态刷新
     - 需要手动执行 curl -X POST "http://localhost:3355/actuator/refresh"
+
+### 消息总线
+  - SpringCloud Bus 支持两种消息代理 RabbitMQ 和 Kafka
+
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
