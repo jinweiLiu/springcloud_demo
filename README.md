@@ -76,6 +76,12 @@
 
 ### 消息总线
   - SpringCloud Bus 支持两种消息代理 RabbitMQ 和 Kafka
+  - 消息总线RabbitMQ实现动态刷新配置
+    - 3344 3355 3366修改
+    - 广播通知
+      - 刷新服务端 curl -X POST "http://localhost:3344/actuator/bus-refresh"
+    - 定点通知
+    
 
 
 ## restful 调试
