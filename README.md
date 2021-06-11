@@ -81,8 +81,10 @@
     - 广播通知
       - 刷新服务端 curl -X POST "http://localhost:3344/actuator/bus-refresh"
     - 定点通知
-    
-
+      - 指定具体某个实例生效而不是全部（实例，只通知3355，不通知3366）
+      - curl -X POST "http://localhost:3344/actuator/bus-refresh/config-client:3355"
+  - Cloud Stream
+    - 屏蔽底层消息中间减的差异，降低切换成本，统一消息的编程模型
 
 ## restful 调试
 > http://localhost:8001/payment/get/1

@@ -11,10 +11,8 @@
         <module name="consul_order80" />
         <module name="config_client3366" />
         <module name="order80" />
-        <module name="hystrix_payment8001" />
-        <module name="zookeeper_order80" />
         <module name="common" />
-        <module name="openfeign_order80" />
+        <module name="zookeeper_order80" />
         <module name="payment8005" />
         <module name="payment8003" />
         <module name="payment8002" />
@@ -22,8 +20,10 @@
         <module name="eureka_server7002" />
         <module name="eureka_server7001" />
         <module name="gateway9527" />
-        <module name="hystrix_order80" />
         <module name="config_center3344" />
+        <module name="openfeign_order80" />
+        <module name="hystrix_order80" />
+        <module name="hystrix_payment8001" />
         <module name="hystrix_dashboard9001" />
       </profile>
     </annotationProcessing>
