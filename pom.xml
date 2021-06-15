@@ -26,6 +26,9 @@
       <module>config_center3344</module>
       <module>config_client3355</module>
     <module>config_client3366</module>
+      <module>stream_provider8801</module>
+      <module>stream_consumer8802</module>
+      <module>stream_consumer8803</module>
   </modules>
 
   <packaging>pom</packaging>

@@ -85,6 +85,14 @@
       - curl -X POST "http://localhost:3344/actuator/bus-refresh/config-client:3355"
   - Cloud Stream
     - 屏蔽底层消息中间减的差异，降低切换成本，统一消息的编程模型
+    - 通过定义绑定器Binder作为中间层，实现了应用程序与消息中间件细节之间的隔离
+      - Input对应消费者
+      - Output对应生产者
+    - stream_provider8801 消息发送者
+    - stream_consumer8802 stream_consumer8803 消息消费者
+      - 重复消费 -->消息分组（不同组是可以全面消费的，同一组内会发生竞争关系，只有其中一个可以消费）
+        - yml配置组名
+      - 持久化
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
