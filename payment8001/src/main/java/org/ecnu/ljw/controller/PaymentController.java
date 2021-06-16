@@ -82,4 +82,9 @@ public class PaymentController
         }
         return this.discoveryClient;
     }
+
+    @GetMapping(value = "/payment/zipkin")
+    public String paymentZipkin(){
+        return "hello hello hello hello";
+    }
 }

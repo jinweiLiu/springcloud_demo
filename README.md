@@ -92,7 +92,18 @@
     - stream_consumer8802 stream_consumer8803 消息消费者
       - 重复消费 -->消息分组（不同组是可以全面消费的，同一组内会发生竞争关系，只有其中一个可以消费）
         - yml配置组名
-      - 持久化
+      - 持久化（消息丢失）
+        - 删除8802分组后，关闭8802，8801发送消息后8802重启接收不到消息
+        - 只关闭8803，8801发送消息后8803重启可以接收消息
+
+### 分布式请求链路跟踪
+  - 搭建zipkin server
+    - java -jar zipkin-server-2.23.2-exec.jar
+    - http://localhost:9411/zipkin/
+  - 链路监控
+
+### spring cloud alibaba
+
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
