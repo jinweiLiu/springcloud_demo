@@ -29,6 +29,9 @@
       <module>stream_provider8801</module>
       <module>stream_consumer8802</module>
       <module>stream_consumer8803</module>
+      <module>alibaba_payment9001</module>
+    <module>alibaba_payment9002</module>
+    <module>alibaba_order83</module>
   </modules>
 
   <packaging>pom</packaging>

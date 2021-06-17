@@ -103,7 +103,12 @@
   - 链路监控
 
 ### spring cloud alibaba
-
+  - nacos服务注册和发现
+    - windows安装nacos报错处理 https://www.cnblogs.com/rookiemzl/p/13814919.html
+    - alibaba_payment9001 alibaba_payment9002服务提供者
+    - alibaba_order83服务调用者
+    - 支持AP和CP模式切换
+  - nacos配置中心
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
