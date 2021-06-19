@@ -109,6 +109,7 @@
     - alibaba_order83服务调用者
     - 支持AP和CP模式切换
   - nacos配置中心
+    - @RefreshScope
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
