@@ -110,6 +110,10 @@
     - 支持AP和CP模式切换
   - nacos配置中心
     - @RefreshScope
+    - 支持动态刷新
+    - 加载配置 DataID方案 Group方案 Namespace方案
+  - nacos集群和持久化配置
+    - 集群
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
