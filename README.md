@@ -114,6 +114,9 @@
     - 加载配置 DataID方案 Group方案 Namespace方案
   - nacos集群和持久化配置
     - 集群
+    - 持久化 mysql
+  - Sentinel服务熔断和降级
+    
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
