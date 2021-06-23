@@ -116,7 +116,10 @@
     - 集群
     - 持久化 mysql
   - Sentinel服务熔断和降级
-    
+    - 单独一个组件，可以独立出来；直接界面话的细粒度统一配置
+    - 下载安装 账号和密码：sentinel
+    - 懒加载
+    - 流控规则 QPS（每秒的请求数量）和线程数
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
