@@ -29,12 +29,23 @@ public class FlowLimitController {
 
     @GetMapping("/testD")
     public String testD(){
+        //验证服务降级规则RT
         try {
             TimeUnit.SECONDS.sleep(1);
         }catch (InterruptedException e){
             e.printStackTrace();
         }
+        //验证服务降级规则 异常比例
+        //int div = 10 / 0; //异常比例为100%
         log.info("testD 测试RT");
         return "-----testD";
+    }
+
+    @GetMapping("/testE")
+    public String testE(){
+        //验证服务降级规则 异常数
+        int div = 10 / 0;
+        log.info("testE 测试异常数");
+        return "-----testE";
     }
 }
