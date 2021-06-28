@@ -129,6 +129,11 @@
       - RT（平均响应时间） 时间窗口内，请求超过平均响应时间，服务不可用
       - 异常比例  时间窗口内请求异常比例
       - 异常数  时间窗口内请求异常数
+    - 热点key
+      - @SentinelResource(value = "testHotKey",blockHandler = "deal_testHotKey")
+      - 参数例外项 参数等于某个值阈值可以变化
+    - 系统规则
+      - Load（只对linux和Unix的系统起作用） RT 线程数 入口QPS CPU使用率
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
