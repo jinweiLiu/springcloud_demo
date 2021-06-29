@@ -134,6 +134,10 @@
       - 参数例外项 参数等于某个值阈值可以变化
     - 系统规则
       - Load（只对linux和Unix的系统起作用） RT 线程数 入口QPS CPU使用率
+    - SentinelResource配置
+      - 按资源名称配置
+      - 按url配置
+      - 自定义限流处理配置
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
