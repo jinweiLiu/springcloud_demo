@@ -138,6 +138,11 @@
       - 按资源名称配置
       - 按url配置
       - 自定义限流处理配置
+    - 服务熔断
+    @SentinelResource(value="函数名"，fallback = "", blockHandler="")
+      - fallback配置运行异常
+      - blockHandler配置违反规则的异常
+      - exceptionToIgnore忽略的异常
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
