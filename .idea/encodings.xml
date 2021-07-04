@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/alibaba_config_nacos_client3377/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alibaba_config_nacos_client3377/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba_consumer_order84/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba_consumer_order84/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alibaba_order83/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alibaba_order83/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alibaba_payment9001/src/main/java" charset="UTF-8" />
@@ -11,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/alibaba_payment9002/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alibaba_provider_payment9003/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alibaba_provider_payment9003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba_provider_payment9004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba_provider_payment9004/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alibaba_sentinel8401/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alibaba_sentinel8401/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />

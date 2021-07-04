@@ -14,6 +14,7 @@
         <module name="config_client3366" />
         <module name="stream_provider8801" />
         <module name="order80" />
+        <module name="alibaba_provider_payment9004" />
         <module name="alibaba_sentinel8401" />
         <module name="alibaba_config_nacos_client3377" />
         <module name="stream_consumer8803" />
@@ -33,6 +34,7 @@
         <module name="alibaba_payment9002" />
         <module name="config_center3344" />
         <module name="common" />
+        <module name="alibaba_consumer_order84" />
         <module name="alibaba_provider_payment9003" />
       </profile>
     </annotationProcessing>

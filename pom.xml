@@ -35,6 +35,8 @@
       <module>alibaba_config_nacos_client3377</module>
       <module>alibaba_sentinel8401</module>
       <module>alibaba_provider_payment9003</module>
+      <module>alibaba_provider_payment9004</module>
+    <module>alibaba_consumer_order84</module>
   </modules>
 
   <packaging>pom</packaging>
