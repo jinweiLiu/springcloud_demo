@@ -143,6 +143,8 @@
       - fallback配置运行异常
       - blockHandler配置违反规则的异常
       - exceptionToIgnore忽略的异常
+    - 规则持久化
+    
 
 ## restful 调试
 > http://localhost:8001/payment/get/1
