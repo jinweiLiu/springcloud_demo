@@ -143,6 +143,7 @@
       - fallback配置运行异常
       - blockHandler配置违反规则的异常
       - exceptionToIgnore忽略的异常
+    - 整合OpenFeign报错 版本问题 未解决！！！
     - 规则持久化
     
 
